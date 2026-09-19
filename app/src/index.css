@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.main{
+  background-image: url("/public/bg.png");
+    min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card{
+    background: rgba(235, 234, 234, 0.08);
+      backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
